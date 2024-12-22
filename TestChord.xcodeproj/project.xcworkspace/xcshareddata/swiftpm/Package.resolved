@@ -1,0 +1,15 @@
+{
+  "originHash" : "1f6a8cbf6ae96ddabcb40aa20f95353e0f2a3a75b1d4849e61be6552c872c2e3",
+  "pins" : [
+    {
+      "identity" : "swiftyguitarchords",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BeauNouvelle/SwiftyGuitarChords",
+      "state" : {
+        "revision" : "7b249ba6bb2d78eed93016566ce6c70fb89d8b88",
+        "version" : "0.8.1"
+      }
+    }
+  ],
+  "version" : 3
+}

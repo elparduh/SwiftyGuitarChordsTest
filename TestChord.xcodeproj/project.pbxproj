@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		20B934182D18BE4000C48426 /* SwiftyChords in Frameworks */ = {isa = PBXBuildFile; productRef = 20B934172D18BE4000C48426 /* SwiftyChords */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		20B933FE2D18BC1E00C48426 /* TestChord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B934182D18BE4000C48426 /* SwiftyChords in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = TestChord;
 			packageProductDependencies = (
+				20B934172D18BE4000C48426 /* SwiftyChords */,
 			);
 			productName = TestChord;
 			productReference = 20B933FE2D18BC1E00C48426 /* TestChord.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 20B933F52D18BC1E00C48426;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				20B934162D18BE4000C48426 /* XCRemoteSwiftPackageReference "SwiftyGuitarChords" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 20B933FF2D18BC1E00C48426 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		20B934162D18BE4000C48426 /* XCRemoteSwiftPackageReference "SwiftyGuitarChords" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/BeauNouvelle/SwiftyGuitarChords";
+			requirement = {
+				kind = exactVersion;
+				version = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		20B934172D18BE4000C48426 /* SwiftyChords */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20B934162D18BE4000C48426 /* XCRemoteSwiftPackageReference "SwiftyGuitarChords" */;
+			productName = SwiftyChords;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 20B933F62D18BC1E00C48426 /* Project object */;
 }
